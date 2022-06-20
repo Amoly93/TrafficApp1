@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1AA272286090850073E4DE /* RoadDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AA271286090850073E4DE /* RoadDetailsView.swift */; };
+		5C1AA274286090A90073E4DE /* IndicatorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AA273286090A90073E4DE /* IndicatorPoint.swift */; };
+		5C1AA276286090CA0073E4DE /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AA275286090CA0073E4DE /* Line.swift */; };
+		5C1AA278286090E80073E4DE /* intersectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AA277286090E80073E4DE /* intersectionCell.swift */; };
+		5C1AA27A286091260073E4DE /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AA279286091260073E4DE /* LineChartView.swift */; };
+		5C1AA27C286091550073E4DE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AA27B286091550073E4DE /* Helpers.swift */; };
+		5C1AA280286091930073E4DE /* Path+QuadCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AA27F286091930073E4DE /* Path+QuadCurve.swift */; };
+		8871D0EC2857F46A00FAF55A /* Traffic1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D0EB2857F46A00FAF55A /* Traffic1App.swift */; };
+		8871D0EE2857F46A00FAF55A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D0ED2857F46A00FAF55A /* ContentView.swift */; };
+		8871D0F02857F46C00FAF55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8871D0EF2857F46C00FAF55A /* Assets.xcassets */; };
+		8871D0F32857F46C00FAF55A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8871D0F22857F46C00FAF55A /* Preview Assets.xcassets */; };
+		8871D0FE2857F50100FAF55A /* RoadCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D0FD2857F50100FAF55A /* RoadCard.swift */; };
+		8871D1002857F57500FAF55A /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D0FF2857F57500FAF55A /* CardViewModel.swift */; };
+		8871D1022857F5EB00FAF55A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D1012857F5EB00FAF55A /* CardView.swift */; };
+		8871D1042857F7D000FAF55A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D1032857F7D000FAF55A /* MainView.swift */; };
+		8871D1062857F89300FAF55A /* AmalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D1052857F89300FAF55A /* AmalsView.swift */; };
+		8871D1082858BB0D00FAF55A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D1072858BB0D00FAF55A /* BlurView.swift */; };
+		8871D10A2858BB4600FAF55A /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D1092858BB4600FAF55A /* RoundedCorner.swift */; };
+		8871D10C2858BB7200FAF55A /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D10B2858BB7200FAF55A /* BottomSheet.swift */; };
+		88E8AFEE2858EEB000036AC1 /* Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8AFED2858EEB000036AC1 /* Delete.swift */; };
+		88E8AFF12858F00400036AC1 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8AFF02858F00400036AC1 /* Extentions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C1AA271286090850073E4DE /* RoadDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadDetailsView.swift; sourceTree = "<group>"; };
+		5C1AA273286090A90073E4DE /* IndicatorPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorPoint.swift; sourceTree = "<group>"; };
+		5C1AA275286090CA0073E4DE /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		5C1AA277286090E80073E4DE /* intersectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intersectionCell.swift; sourceTree = "<group>"; };
+		5C1AA279286091260073E4DE /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		5C1AA27B286091550073E4DE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		5C1AA27F286091930073E4DE /* Path+QuadCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+QuadCurve.swift"; sourceTree = "<group>"; };
+		8871D0E82857F46A00FAF55A /* Traffic1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traffic1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8871D0EB2857F46A00FAF55A /* Traffic1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traffic1App.swift; sourceTree = "<group>"; };
+		8871D0ED2857F46A00FAF55A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8871D0EF2857F46C00FAF55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8871D0F22857F46C00FAF55A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8871D0FD2857F50100FAF55A /* RoadCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadCard.swift; sourceTree = "<group>"; };
+		8871D0FF2857F57500FAF55A /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		8871D1012857F5EB00FAF55A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8871D1032857F7D000FAF55A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8871D1052857F89300FAF55A /* AmalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmalsView.swift; sourceTree = "<group>"; };
+		8871D1072858BB0D00FAF55A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		8871D1092858BB4600FAF55A /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		8871D10B2858BB7200FAF55A /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		88E8AFED2858EEB000036AC1 /* Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delete.swift; sourceTree = "<group>"; };
+		88E8AFF02858F00400036AC1 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8871D0E52857F46A00FAF55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8871D0DF2857F46A00FAF55A = {
+			isa = PBXGroup;
+			children = (
+				8871D0EA2857F46A00FAF55A /* Traffic1 */,
+				8871D0E92857F46A00FAF55A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8871D0E92857F46A00FAF55A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8871D0E82857F46A00FAF55A /* Traffic1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8871D0EA2857F46A00FAF55A /* Traffic1 */ = {
+			isa = PBXGroup;
+			children = (
+				88E8AFEF2858EFCC00036AC1 /* Extentions */,
+				8871D0FC2857F4C700FAF55A /* View */,
+				8871D0FA2857F4A600FAF55A /* ViewModel */,
+				8871D0F92857F49A00FAF55A /* Model */,
+				8871D0EB2857F46A00FAF55A /* Traffic1App.swift */,
+				8871D0ED2857F46A00FAF55A /* ContentView.swift */,
+				8871D0EF2857F46C00FAF55A /* Assets.xcassets */,
+				8871D0F12857F46C00FAF55A /* Preview Content */,
+			);
+			path = Traffic1;
+			sourceTree = "<group>";
+		};
+		8871D0F12857F46C00FAF55A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8871D0F22857F46C00FAF55A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8871D0F92857F49A00FAF55A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8871D0FD2857F50100FAF55A /* RoadCard.swift */,
+				5C1AA27B286091550073E4DE /* Helpers.swift */,
+				5C1AA27F286091930073E4DE /* Path+QuadCurve.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8871D0FA2857F4A600FAF55A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8871D0FF2857F57500FAF55A /* CardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8871D0FC2857F4C700FAF55A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8871D1012857F5EB00FAF55A /* CardView.swift */,
+				8871D1032857F7D000FAF55A /* MainView.swift */,
+				8871D1052857F89300FAF55A /* AmalsView.swift */,
+				8871D1072858BB0D00FAF55A /* BlurView.swift */,
+				8871D1092858BB4600FAF55A /* RoundedCorner.swift */,
+				8871D10B2858BB7200FAF55A /* BottomSheet.swift */,
+				88E8AFED2858EEB000036AC1 /* Delete.swift */,
+				5C1AA271286090850073E4DE /* RoadDetailsView.swift */,
+				5C1AA273286090A90073E4DE /* IndicatorPoint.swift */,
+				5C1AA275286090CA0073E4DE /* Line.swift */,
+				5C1AA277286090E80073E4DE /* intersectionCell.swift */,
+				5C1AA279286091260073E4DE /* LineChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88E8AFEF2858EFCC00036AC1 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				88E8AFF02858F00400036AC1 /* Extentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8871D0E72857F46A00FAF55A /* Traffic1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8871D0F62857F46C00FAF55A /* Build configuration list for PBXNativeTarget "Traffic1" */;
+			buildPhases = (
+				8871D0E42857F46A00FAF55A /* Sources */,
+				8871D0E52857F46A00FAF55A /* Frameworks */,
+				8871D0E62857F46A00FAF55A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Traffic1;
+			productName = Traffic1;
+			productReference = 8871D0E82857F46A00FAF55A /* Traffic1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8871D0E02857F46A00FAF55A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8871D0E72857F46A00FAF55A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8871D0E32857F46A00FAF55A /* Build configuration list for PBXProject "Traffic1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8871D0DF2857F46A00FAF55A;
+			productRefGroup = 8871D0E92857F46A00FAF55A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8871D0E72857F46A00FAF55A /* Traffic1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8871D0E62857F46A00FAF55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8871D0F32857F46C00FAF55A /* Preview Assets.xcassets in Resources */,
+				8871D0F02857F46C00FAF55A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8871D0E42857F46A00FAF55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8871D1002857F57500FAF55A /* CardViewModel.swift in Sources */,
+				8871D1082858BB0D00FAF55A /* BlurView.swift in Sources */,
+				5C1AA278286090E80073E4DE /* intersectionCell.swift in Sources */,
+				8871D1042857F7D000FAF55A /* MainView.swift in Sources */,
+				8871D10A2858BB4600FAF55A /* RoundedCorner.swift in Sources */,
+				5C1AA280286091930073E4DE /* Path+QuadCurve.swift in Sources */,
+				8871D0EE2857F46A00FAF55A /* ContentView.swift in Sources */,
+				8871D1062857F89300FAF55A /* AmalsView.swift in Sources */,
+				5C1AA274286090A90073E4DE /* IndicatorPoint.swift in Sources */,
+				5C1AA272286090850073E4DE /* RoadDetailsView.swift in Sources */,
+				5C1AA27A286091260073E4DE /* LineChartView.swift in Sources */,
+				8871D10C2858BB7200FAF55A /* BottomSheet.swift in Sources */,
+				5C1AA276286090CA0073E4DE /* Line.swift in Sources */,
+				8871D0FE2857F50100FAF55A /* RoadCard.swift in Sources */,
+				5C1AA27C286091550073E4DE /* Helpers.swift in Sources */,
+				88E8AFF12858F00400036AC1 /* Extentions.swift in Sources */,
+				88E8AFEE2858EEB000036AC1 /* Delete.swift in Sources */,
+				8871D0EC2857F46A00FAF55A /* Traffic1App.swift in Sources */,
+				8871D1022857F5EB00FAF55A /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8871D0F42857F46C00FAF55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8871D0F52857F46C00FAF55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8871D0F72857F46C00FAF55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Traffic1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.Farah.Traffic1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8871D0F82857F46C00FAF55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Traffic1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.Farah.Traffic1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8871D0E32857F46A00FAF55A /* Build configuration list for PBXProject "Traffic1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8871D0F42857F46C00FAF55A /* Debug */,
+				8871D0F52857F46C00FAF55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8871D0F62857F46C00FAF55A /* Build configuration list for PBXNativeTarget "Traffic1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8871D0F72857F46C00FAF55A /* Debug */,
+				8871D0F82857F46C00FAF55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8871D0E02857F46A00FAF55A /* Project object */;
+}
